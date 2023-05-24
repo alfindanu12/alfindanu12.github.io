@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <link rel="icon" href="img/alfin.jpg" />
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="home">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="" class="navbar-brand page-scroll">Alfin Danu Ardianto</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- akhir navbar -->
+
+
+  <!-- jumbotron -->
+  <div class="jumbotron text-center" style="background-color: #2b2b2b;">
+    <img src="img/alfin.jpg" class="img-circle">
+    <h1>Alfin Danu Ardianto</h1>
+    <p><a href="#web" style="color: #f7f7f7;">Web Developer</a> | <a href="#design" style="color: #f7f7f7;">Designer</a>
+      | <a href="#video" style="color: #f7f7f7;">Videographer</a></p>
+  </div>
+
+  <!-- akhir jumbotron -->
+
+  <!-- about -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">About</h2>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 col-sm-offset-1">
+          <p>I am a hard worker, responsible, time discipline, diligent and ready to work in a team. Experience makes me
+            a person who is more daring to challenge new things.</p>
+        </div>
+        <div class="col-sm-5">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis nisi incidunt nam ipsa similique
+            minima soluta? Voluptatum earum, aspernatur nostrum rerum possimus alias, quia iusto laboriosam non
+            provident quo quam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir about -->
+
+  <!-- portfolio -->
+  <section class="portfolio mt-5" id="portfolio" style="background-color: #2b2b2b;">
+    <div class="container">
+      <div class="col-sm-12" style="border: 1px;">
+        <h2 class="text-center">Portfolio</h2>
+        <hr />
+      </div>
+      <div class="row mt-3">
+        <div class="col-sm-4">
+          <h3 class="text-center" id="web">Web Developer</h3>
+          <a href="#" class="thumbnail">
+            <img src="img/portfolio/program.PNG" />
+          </a>
+          <a href="#" class="thumbnail">
+            <img src="img/portfolio/program1.jpg" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center" id="design">Designer</h3>
+          <a href="#" class="thumbnail">
+            <img src="img/portfolio/Paint Packaging Mockup.jpg" />
+          </a>
+          <a href="#" class="thumbnail">
+            <img src="img/portfolio/mocup.JPG" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center" id="video">Videographer</h3>
+          <a href="https://www.youtube.com/@shotproject7827" class="thumbnail">
+            <img src="img/portfolio/video.jpg" />
+          </a>
+          <a href="https://www.youtube.com/@shotproject7827" class="thumbnail">
+            <img src="img/portfolio/mavic3.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir portfolio -->
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Contact</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <form action="kirim.php" method="post" target="_blank">
+            <div class="form-group">
+              <label for="nama">NAMA</label>
+              <input type="text" id="nama" name="nama" class="form-control" placeholder="Masukan Nama"
+                style="background-color: #616571;">
+            </div>
+            <div class="form-group">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Masukan Email"
+                style="background-color: #616571;">
+            </div>
+            <div class="form-group">
+              <label for="telp">NO TELEPON</label>
+              <input type="tel" id="telp" name="telp" class="form-control" placeholder="Masukan Nomer Telepon"
+                style="background-color: #616571;">
+            </div>
+            <label for="kategori">PILIH KATEGORI</label>
+            <select class="form-control" id="kategori" name="kategori" style="background-color: #616571;">
+              <option>-- Pilih Kategori --</option>
+              <option>Web Design</option>
+              <option>Videographer</option>
+              <option>Design Grafis</option>
+            </select>
+            <div class="form-group">
+              <br>
+              <label for="jk">JENIS KELAMIN</label><br>
+              <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki <br>
+              <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </div>
+            <div class="form-group">
+              <label for="pesan">PESAN</label>
+              <textarea class="form-control" rows="10" name="pesan" placeholder="Masukan Pesan"
+                style="background-color: #616571;"></textarea>
+            </div>
+            <button type="sub" class="btn btn-primary" name="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- akhir kontak -->
+
+  <!-- footer -->
+  <footer class="container-fluid footer">
+    <div class="container" style="padding-top: 10px;">
+      <div class="footer-left">
+        <div class="credit-card">
+          <img src="img/alfin.jpg">
+        </div>
+        <h3>Alfin Danu Ardianto</h3>
+        <p class="footer-copyright">&copy;2023 Alfin Danu Ardianto</p>
+      </div>
+      <div class="footer-center">
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Indonesia</span> Tangerang selatan, Banten</p>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>08971608102</p>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">Alfindanu@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-right">
+        <p class="footer-about"><span>Alfin Danu Ardianto</span>I am a hard worker, responsible, time discipline, diligent and ready to work in a team. Experience makes me
+          a person who is more daring to challenge new things. <a href="#" class="a_reset">Learn More</a></p>
+        <div class="footer-media">
+          <a href="https://www.youtube.com/@nanotechindonesiaglobal2211"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100083404178023"><i class="fa fa-facebook"></i></a>
+          <a href="https://twitter.com/nanoglobal_id"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com/nanotechglobal.id/"><i class="fa fa-instagram"></i></a>
+          <a href="https://id.linkedin.com/company/nanotech-indonesia"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- akhir footer -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- <script src="js/javascript.js"></script> -->
+</body>
+
+</html>
